@@ -25,6 +25,14 @@ class ThingsController < ApplicationController
     redirect_to :index
   end
 
+  def new
+    @thing = Thing.new
+  end
+
+  def create
+    
+  end
+
 
   private
 
