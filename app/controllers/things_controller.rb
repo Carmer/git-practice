@@ -28,7 +28,7 @@ class ThingsController < ApplicationController
 
   private
 
-  def think_params
+  def thing_params
     params.require(:thing).permit(:stuff1, :stuff2)
   end
 
